@@ -1,0 +1,132 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+h2, h4 {
+  color: #333;
+}
+
+button {
+  font-size: 16px;
+}
+
+.mt-4 {
+  margin-top: 2rem;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.alert {
+  font-size: 14px;
+}
+
+/* Basic Flexbox Styling */
+.d-flex {
+  display: flex;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+/* Form Styling */
+form {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+form input,
+form select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #0056b3;
+}
+
+/* Salary Calculation */
+.salary-details {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+
+.salary-details p {
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.salary-details button {
+  margin-top: 20px;
+  background-color: #28a745;
+}
+
+.salary-details button:hover {
+  background-color: #218838;
+}
+
+/* Navigation Bar */
+.navbar {
+  background-color: #343a40;
+  padding: 10px;
+}
+
+.navbar .navbar-brand,
+.navbar .nav-link {
+  color: white;
+}
+
+.navbar .nav-link:hover {
+  color: #ccc;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .salary-details {
+    padding: 15px;
+  }
+
+  form {
+    padding: 15px;
+  }
+
+  .navbar {
+    text-align: center;
+  }
+}
